@@ -9,7 +9,7 @@ Demo video available at : https://youtu.be/AnGz978cwyo
 #  style.css
       This file contains style for our Compiler.
 
-#  compiler.htm
+#  compiler.php
       This file contains takes the C Code and submits it to "execute.php" and the displays the output.
 
 #  execute.php
