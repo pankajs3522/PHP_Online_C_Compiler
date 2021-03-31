@@ -57,7 +57,7 @@ inputs=encodeURIComponent(inputs);
       document.getElementById("codedesk").innerHTML=this.responseText;
     }
   };
-  xhttp.open("POST", "gv.php?language="+lang, true);
+  xhttp.open("POST", "execute.php?language="+lang, true);
 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xhttp.send("code="+a+"&inputs="+inputs);
 }
